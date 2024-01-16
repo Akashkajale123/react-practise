@@ -5,7 +5,7 @@ export const ShopContext = createContext(null);
 
 const ShopContextProvider = (props) => {
     const contextValue = {
-        all_Product: all_Product // Corrected property name
+        all_product: all_Product 
     };
 
     return (
